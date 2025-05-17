@@ -4,6 +4,7 @@ int main()
 int a,b,c,i;
 printf("enter the number 1,add\n 2,sub \n 3,multiply\n 4,div");
 scanf("%d",&i);
+printf("hello wrold:");
 switch(i)
 {
 	case 1 :
@@ -33,5 +34,6 @@ switch(i)
        default :
 		printf("invalid input:");
 }
+//prog has been ended 
 return 0;
 }
